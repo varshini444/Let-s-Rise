@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lifeline Express</title>
+        
+       
+    
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+        <script
+            src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
+            data-auto-replace-svg="nest">
+        </script>
+    
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <center><h1>Contact us</h1></body></center>
+<center><form  action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+    <script type="text/javascript">
+    function ValidateForm(frm) {
+    if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+    if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+    if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+    if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+    alert('Thank you for filling out the form. our team will cantact you in few days.')
+    return true; }
+    </script>
+    <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+    <tr> <td>
+        <div class="form-group">    
+            <label class="form-check-label" for="Name">Name *:</label>
+        </td> <td>
+        <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+    </div>
+
+    </td> </tr> <tr> <td>
+        <div class="form-group">
+    <label class="form-check-label" for="PhoneNumber">Phone number :</label>
+    </td> <td>
+    <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+</div>
+    </td> </tr> <tr> <td>
+        <div class="form-group">
+    <label class="form-check-label" for="FromEmailAddress">Email address *:</label>
+    </td> <td>
+    <input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    </td> </tr> <tr> <td>
+        <div class="form-group">
+    <label class="form-check-label" for="Comments">Comments *:</label>
+    </td> <td>
+    <textarea class="form-check-label" name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+</div>
+    </td> </tr> <tr> <td>
+    <br>
+    </td> <td>
+    <br>
+    <input name="skip_Submit" type="submit" class="btn btn-info" value="Submit" /><br><br>* - required fields
+    <script bgcolor="#ffffff" src="https://www.100forms.com/js/FORMKEY:CXY2C87DPZHB/SEND:yashuyamu9591416141@gmail.com" type="text/javascript"></script>
+    </td> </tr>
+    </table>
+    </form>
+</center>
+<a href="index.html">
+<center><button class="btn btn-danger">Go Back</button></center>
+</a>
+</body>
+</html>
